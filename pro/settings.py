@@ -96,7 +96,7 @@ DATABASES = {
     },
 
     # постгра на моем компе
-    'default': {
+    'local': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'artbase',
         'USER': 'artuser',
@@ -104,7 +104,7 @@ DATABASES = {
     },
 
     # стандартная sqlite 
-    'lite': {
+    'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     },
